@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(WeatherInfoApp());
 }
-
+// A stateful widget that represents the Weather Info App.
 class WeatherInfoApp extends StatefulWidget {
   @override
   _WeatherInfoAppState createState() => _WeatherInfoAppState();
