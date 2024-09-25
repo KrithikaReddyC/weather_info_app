@@ -1,9 +1,10 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-// This is a single-line comment
-
-// The main function starts the Flutter application
-
+/* 
+  This is a multi-line comment.
+  It can span multiple lines.
+  Use it for longer explanations.
+*/
 void main() {
   runApp(WeatherInfoApp());
 }
