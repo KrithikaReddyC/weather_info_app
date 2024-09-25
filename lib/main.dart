@@ -18,7 +18,8 @@ class _WeatherInfoAppState extends State<WeatherInfoApp> {
   String city = '';
   String weather = '';
   double temperature = 0.0;
-
+ /// This function simulates fetching weather data.
+  /// It randomly generates a temperature and weather condition.
   void fetchWeatherData() {
     setState(() {
       temperature = Random().nextDouble() * (30 - 15) + 15; // Simulate temp
