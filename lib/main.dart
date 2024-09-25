@@ -1,5 +1,8 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
+// This is a single-line comment
+
+// The main function starts the Flutter application
 
 void main() {
   runApp(WeatherInfoApp());
